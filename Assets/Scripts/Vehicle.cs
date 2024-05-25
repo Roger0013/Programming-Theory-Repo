@@ -9,10 +9,12 @@ public class Vehicle : MonoBehaviour
     private float turnSpeed = 45.0f;
     private float horizontalInput;
     private float forwardInput;
+    private Camera cam;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        cam = Camera.main;
+        cam.GetComponent<PlayerCamera>().player = this.gameObject;
     }
 
     // Update is called once per frame
