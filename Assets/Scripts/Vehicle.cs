@@ -23,7 +23,7 @@ public class Vehicle : MonoBehaviour
         PlayerControl();
     }
 
-    protected void PlayerControl()
+    protected virtual void PlayerControl()
     {
         //Move the vehicle forward
         horizontalInput = Input.GetAxis("Horizontal");

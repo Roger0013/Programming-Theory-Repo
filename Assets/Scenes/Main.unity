@@ -214,9 +214,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 8dcf1e1a9552d144db500adf60f2b638, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1222740607}
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 8dcf1e1a9552d144db500adf60f2b638, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1222740606}
   m_SourcePrefab: {fileID: 100100000, guid: 8dcf1e1a9552d144db500adf60f2b638, type: 3}
 --- !u!1 &505775977
 GameObject:
@@ -383,6 +380,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100006, guid: ebfa405660e25c549bb7039f0b44f8ff, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1775379972}
+    - targetCorrespondingSourceObject: {fileID: 100006, guid: ebfa405660e25c549bb7039f0b44f8ff, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1775379978}
   m_SourcePrefab: {fileID: 100100000, guid: ebfa405660e25c549bb7039f0b44f8ff, type: 3}
 --- !u!1001 &1090328657
 PrefabInstance:
@@ -449,19 +449,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 8dcf1e1a9552d144db500adf60f2b638, type: 3}
   m_PrefabInstance: {fileID: 406148843}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1222740606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1222740605}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4ef1723d3b14d834ba99bd74cbddeb70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 10
 --- !u!54 &1222740607
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -521,6 +508,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1775379978
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1775379971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 453f1dc887d511145a8403cf1b28ae73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1 &1946234827
 GameObject:
   m_ObjectHideFlags: 0
