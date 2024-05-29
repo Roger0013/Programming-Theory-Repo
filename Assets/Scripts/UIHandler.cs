@@ -1,15 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIHandler : MonoBehaviour
 {
+    [SerializeField] TMP_Dropdown dropdown;
     // Start is called before the first frame update
     void Start()
     {
-        
+        SetVehicle();
     }
 
     // Update is called once per frame
@@ -35,5 +38,10 @@ public class UIHandler : MonoBehaviour
 #else
         Application.Quit(); // original code to quit Unity player
 #endif
+    }
+
+    public void SetVehicle()
+    {
+        MainManager.Instance.vehicleIndex = dropdown.value;
     }
 }

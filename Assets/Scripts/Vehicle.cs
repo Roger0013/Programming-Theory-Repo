@@ -25,12 +25,9 @@ public class Vehicle : MonoBehaviour
 
     protected virtual void PlayerControl()
     {
-        //Move the vehicle forward
         horizontalInput = Input.GetAxis("Horizontal");
         forwardInput = Input.GetAxis("Vertical");
         transform.Translate(Vector3.forward * Time.deltaTime * speed * forwardInput);
-        //playerRb.AddRelativeForce(Vector3.forward * forwardInput * horsePower);
-        //rotate the car instead sliding
         transform.Rotate(Vector3.up * Time.deltaTime * turnSpeed * horizontalInput);
     }
 }
