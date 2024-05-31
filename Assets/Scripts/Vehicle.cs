@@ -20,9 +20,11 @@ public class Vehicle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // ABSTRACTION
         PlayerControl();
     }
 
+    // INHERITANCE
     protected virtual void PlayerControl()
     {
         horizontalInput = Input.GetAxis("Horizontal");

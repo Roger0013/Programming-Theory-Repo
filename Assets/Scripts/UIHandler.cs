@@ -9,17 +9,6 @@ using UnityEngine.UI;
 public class UIHandler : MonoBehaviour
 {
     [SerializeField] TMP_Dropdown dropdown;
-    // Start is called before the first frame update
-    void Start()
-    {
-        //SetVehicle();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void BackToMenu()
     {

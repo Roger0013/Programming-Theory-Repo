@@ -5,6 +5,7 @@ using UnityEngine;
 public class MainManager : MonoBehaviour
 {
     [SerializeField] List<GameObject> vehicles;
+    // ABSTRACTION
     public static MainManager Instance { get; private set; }
 
     public int vehicleIndex 

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Helicopter : Vehicle
 {
+    // POLYMORPHISM
     protected override void PlayerControl()
     {
         base.PlayerControl();
